@@ -10,7 +10,13 @@ export default defineConfig({
     Components({
       resolvers: [VantResolver()],
     }),
-  ],
+  ]
+    /*,
+    build: {
+        rollupOptions: {
+            external: ['vue-router']
+        }
+    }*/
 })
 
 
